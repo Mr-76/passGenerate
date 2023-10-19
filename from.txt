@@ -1,0 +1,4 @@
+italian--> https://github.com/napolux/paroleitaliane/blob/master/paroleitaliane/60000_parole_italiane.txt
+eng --> https://github.com/dwyl/english-words.git
+port --> https://github.com/pythonprobr/palavras.git
+
