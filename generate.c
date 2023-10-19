@@ -14,7 +14,7 @@ int main() {
          "select a lang for the word then throw the dice 6 times as ur input\n"
          "lang_select_number\n");
   while (counter < 4) {
-    printf("Escolha 1-portugues 2-ingles 3-italiano\n");
+    printf("Choose 1-portuguese 2-english 3-italian\n");
     fgets(buffer, sizeof(buffer), stdin);
     lang_select_number = atoi(buffer);
 
@@ -32,7 +32,7 @@ int main() {
       printf("nenhum selecionado\n");
       return 0;
     }
-    printf("digite o numero de ate 6 digitos que pegou no dado\n");
+    printf("digit a number of atleast 6 digits that you got from the dice\n");
 
     fgets(buffer_int, sizeof(buffer_int), stdin);
 
@@ -43,7 +43,7 @@ int main() {
     fd = fopen(filename, "r");
 
     if (fd == NULL) {
-      printf("Arquivo %s nao pode ser aberto\n", filename);
+      printf("file %s not open\n", filename);
       return 1;
     }
     const unsigned MAX_LENGTH = 256;
